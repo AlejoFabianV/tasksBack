@@ -25,5 +25,3 @@ export class Task {
 }
 
 export const TaskSchema = SchemaFactory.createForClass(Task);
-TaskSchema.index({createdAt: 1}); 
-TaskSchema.index({title: -1});
